@@ -1,8 +1,7 @@
-
 import { useEffect, useRef, useState } from "react";
 import MessageItem from "./MessageItem";
 import MessageInput from "./MessageInput";
-import { useToast } from "@/components/ui/toast";
+import { useToast } from "@/hooks/use-toast";
 
 export interface Message {
   id: string;

@@ -1,10 +1,9 @@
-
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "@/components/layout/Header";
 import ChatBox from "@/components/chat/ChatBox";
 import MatchList from "@/components/matches/MatchList";
-import { useToast } from "@/components/ui/toast";
+import { useToast } from "@/hooks/use-toast";
 
 const Chat = () => {
   const navigate = useNavigate();
