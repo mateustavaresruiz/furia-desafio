@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
+# 🖤🤍 Furia Chat
 
-## Project info
+**Furia Chat** é um projeto minimalista e moderno focado na comunicação entre fãs da equipe **Furia** no cenário de **CS2**.  
+O site permite que usuários conversem em tempo real e acompanhem informações atualizadas sobre os próximos jogos da Furia.
 
-**URL**: https://lovable.dev/projects/dff137d1-d116-495c-a659-3c683508951e
+## 📋 Funcionalidades
 
-## How can I edit this code?
+- Cadastro e login de usuários
+- Chat público em tempo real (WebSocket)
+- Avatar padrão exibido ao lado das mensagens
+- Área dedicada para mostrar os próximos jogos da Furia
+- Botão para ver todos os jogos da Furia (redirecionando para HLTV)
+- Layout responsivo (mobile e desktop)
+- Interface minimalista e elegante (preto e branco)
 
-There are several ways of editing your application.
+## 🎨 Tecnologias utilizadas
 
-**Use Lovable**
+**Frontend:**
+- [React.js](https://reactjs.org/) ou [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Socket.io Client](https://socket.io/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dff137d1-d116-495c-a659-3c683508951e) and start prompting.
+**Backend:**
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [Socket.io Server](https://socket.io/)
+- [MongoDB](https://www.mongodb.com/)
 
-Changes made via Lovable will be committed automatically to this repo.
+**Hospedagem sugerida:**
+- Frontend: [Vercel](https://vercel.com/)
+- Backend: [Railway](https://railway.app/), [Render](https://render.com/) ou [Fly.io](https://fly.io/)
 
-**Use your preferred IDE**
+## 📂 Estrutura de Pastas (sugerida)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+furia-chat/
+├── frontend/
+│   ├── components/
+│   │   ├── ChatBox.jsx
+│   │   ├── Message.jsx
+│   │   ├── Header.jsx
+│   │   └── MatchInfo.jsx
+│   ├── pages/
+│   │   ├── index.jsx
+│   │   ├── login.jsx
+│   │   └── register.jsx
+│   ├── services/
+│   │   ├── api.js
+│   │   └── socket.js
+│   ├── assets/
+│   │   └── default-avatar.png
+│   ├── styles/
+│   │   └── globals.css
+│   └── package.json
+├── backend/
+│   ├── controllers/
+│   │   └── chatController.js
+│   ├── models/
+│   │   └── userModel.js
+│   ├── routes/
+│   │   └── authRoutes.js
+│   ├── server.js
+│   └── package.json
+└── README.md
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+git clone https://github.com/seu-usuario/furia-chat.git
 
-Follow these steps:
+🌐 Link para ver todos os jogos da Furia
+Se não for possível integrar via API, o botão "Todos os Jogos" redirecionará para:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🔗 https://www.hltv.org/team/8297/furia#tab-matchesBox
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+✨ Futuras melhorias
+Implementação de chats privados
 
-# Step 3: Install the necessary dependencies.
-npm i
+Notificações push antes dos jogos
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Integração com login social (Google/Discord)
 
-**Edit a file directly in GitHub**
+Sistema de reputação para usuários ativos
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dff137d1-d116-495c-a659-3c683508951e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🖤 Projeto dedicado à comunidade da Furia no CS2
+Vamos juntos construir uma comunidade ainda mais forte!
+#Furia #CS2 #FuriaChat
