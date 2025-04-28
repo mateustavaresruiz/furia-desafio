@@ -30,7 +30,7 @@ O site permite que usuários conversem em tempo real e acompanhem informações 
 - Frontend: [Vercel](https://vercel.com/)
 - Backend: [Railway](https://railway.app/), [Render](https://render.com/) ou [Fly.io](https://fly.io/)
 
-## 📂 Estrutura de Pastas (sugerida)
+## 📂 Estrutura de Pastas
 
 ```bash
 furia-chat/
