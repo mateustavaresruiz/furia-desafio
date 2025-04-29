@@ -50,7 +50,7 @@ export default function ChatBox() {
     setIsConnected(true);
     
     // Simulação de usuários online
-    setOnlineUsers(["Admin Furia", "arT", "KSCERATO", "Anônimo"]);
+    setOnlineUsers(["Admin Furia", "Fallen", "KSCERATO", "Anônimo"]);
     
     toast({
       title: "Conectado ao chat",
