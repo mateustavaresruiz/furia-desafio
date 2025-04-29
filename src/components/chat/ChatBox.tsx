@@ -34,7 +34,7 @@ export default function ChatBox() {
       },
       {
         id: "2",
-        user: { name: "arT" },
+        user: { name: "Fallen" },
         content: "Salve galera! Vamos com tudo pro próximo jogo!",
         timestamp: new Date(Date.now() - 1800000),
       },
@@ -62,7 +62,7 @@ export default function ChatBox() {
       setOnlineUsers(prev => [...prev, "fallen"]);
       toast({
         title: "Usuário conectado",
-        description: "fallen entrou no chat",
+        description: "Fallen entrou no chat",
       });
     }, 5000);
 
