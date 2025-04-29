@@ -2,7 +2,7 @@
 
 Projeto desenvolvido como parte de um desafio técnico, utilizando **Vite + React + TypeScript + TailwindCSS + shadcn/ui**.
 
-Projeto simple com uma landing page dinâmica e agradevel com uma página chat entre os usuários e um painel monstrando os jogos da furia!
+Projeto com uma home page dinâmica e agradevel com uma página chat entre os usuários e um painel monstrando os jogos da furia!
 
 ## 🔥 Objetivo
 
