@@ -2,7 +2,6 @@
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { useToast } from "@/hooks/use-toast";
-import FuriaLogo from "../ui/FuriaLogo";
 
 export default function Header() {
   const navigate = useNavigate();
@@ -23,7 +22,6 @@ export default function Header() {
     <header className="border-b border-furia-gray">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate("/")}>
-          <FuriaLogo className="h-8" />
           <span className="font-bold text-xl">FURIA Chat</span>
         </div>
 

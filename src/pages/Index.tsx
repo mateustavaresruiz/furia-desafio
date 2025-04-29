@@ -2,7 +2,6 @@
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/layout/Header";
-import FuriaLogo from "@/components/ui/FuriaLogo";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -13,9 +12,7 @@ const Index = () => {
       
       <main className="flex-1">
         <section className="py-20 px-4">
-          <div className="container mx-auto flex flex-col items-center text-center">
-            <FuriaLogo className="h-24 w-24 mb-6" />
-            
+          <div className="container mx-auto flex flex-col items-center text-center">            
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Bem-vindo ao <span className="text-furia-blue">FURIA Chat</span>
             </h1>
