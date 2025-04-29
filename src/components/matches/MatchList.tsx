@@ -80,7 +80,7 @@ export default function MatchList() {
 
   return (
     <Card className="bg-furia-gray border-furia-gray">
-      <CardHeader className="flex flex-row items-center justify-between">
+      <CardHeader className="flex flex-row items-center justify-between text-left">
         <CardTitle className="text-xl font-bold">Próximos Jogos</CardTitle>
         <Button 
           variant="ghost" 
@@ -93,9 +93,9 @@ export default function MatchList() {
         </Button>
       </CardHeader>
       
-      <CardContent className="space-y-4">
+      <CardContent className="space-y-4 text-left">
         {matches.length === 0 && !loading ? (
-          <p className="text-center py-4 text-muted-foreground">
+          <p className="py-4 text-muted-foreground">
             Nenhum jogo agendado no momento.
           </p>
         ) : (

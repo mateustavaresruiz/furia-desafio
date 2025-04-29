@@ -34,7 +34,7 @@ export default function MessageItem({ message }: MessageItemProps) {
         </AvatarFallback>
       </Avatar>
       
-      <div className="flex-1">
+      <div className="flex-1 text-left">
         <div className="flex items-center gap-2">
           <span className="font-medium">{message.user.name}</span>
           <span className="text-xs text-muted-foreground">{formatTime(message.timestamp)}</span>

@@ -1,3 +1,4 @@
+
 import { useEffect, useRef, useState } from "react";
 import MessageItem from "./MessageItem";
 import MessageInput from "./MessageInput";
@@ -79,7 +80,7 @@ export default function ChatBox() {
 
   return (
     <div className="flex flex-col h-[calc(100vh-12rem)] bg-furia-black border border-furia-gray rounded-lg overflow-hidden">
-      <div className="p-4 bg-furia-gray">
+      <div className="p-4 bg-furia-gray text-left">
         <h2 className="text-lg font-semibold">Chat FURIA</h2>
         <div className="flex items-center">
           <div className={`w-2 h-2 rounded-full ${isConnected ? "bg-green-500" : "bg-red-500"} mr-2`}></div>
